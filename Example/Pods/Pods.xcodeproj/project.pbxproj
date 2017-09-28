@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28125AE4322AE5FE4356DD1202B79447 /* Pods-BeaconScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D161205FBD825F02A19E9DC7716AAE4 /* Pods-BeaconScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC69B3EA658EC4BF5684EEBC0424035 /* Pods-BeaconScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1888432EBE810509B17AC7E39C1019A3 /* Pods-BeaconScanner_Example-dummy.m */; };
+		354460B03D08B2E52B525DD737157531 /* Pods-BeaconScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D22ABE64E0AF9E9AE7CE648875B3DF1C /* Pods-BeaconScanner_Tests-dummy.m */; };
+		46E533EBEE1DE847469FCD8C7EAE22C6 /* BeaconScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8043B649CBCAFC249BBE597824F0D1B1 /* BeaconScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0F294F243C701992E3520B316A42D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A290D3C96572B6D46355A0650CD8C09D /* BeaconScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A7E9505D6761FBEDFBD7A545295D7 /* BeaconScanner-dummy.m */; };
+		A8AACCA756AA555F68150D6D6F5D8EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B8A1FFA21F7CE00500ED9AFE /* BeaconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A1FF9E1F7CE00500ED9AFE /* BeaconInfo.h */; };
+		B8A1FFA31F7CE00500ED9AFE /* BeaconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A1FF9F1F7CE00500ED9AFE /* BeaconInfo.m */; };
+		B8A1FFA41F7CE00500ED9AFE /* BeaconScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A1FFA01F7CE00500ED9AFE /* BeaconScanner.h */; };
+		B8A1FFA51F7CE00500ED9AFE /* BeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A1FFA11F7CE00500ED9AFE /* BeaconScanner.m */; };
+		C5E2B80BD2AB8A678986E8D2C32C95F7 /* Pods-BeaconScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B71729637DF5F57E9509E4A5902F174B /* Pods-BeaconScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35A231C861FBA87255AB7409314EAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EAA8AADBA31B48D3A67686BAB3D98948 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EB1F12F2F9ABCD6B3A54BEEBE6189 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D35075865BD9E97C47904A1CE177A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AAFD0EB6039549A0B768BF3E2388F0;
+			remoteInfo = BeaconScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031674A136ACE12C9B411F50DBF3703D /* BeaconScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BeaconScanner.modulemap; sourceTree = "<group>"; };
+		0872CC8998F978AE8B57C818DFE37D74 /* Pods-BeaconScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BeaconScanner_Example.modulemap"; sourceTree = "<group>"; };
+		1033F7EB3CE072D145E8232D12ECC901 /* Pods-BeaconScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		167A3B9C12985F52B0384F13F9846963 /* BeaconScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeaconScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1888432EBE810509B17AC7E39C1019A3 /* Pods-BeaconScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		18ECB9A03D9C2A86F0489170A80A80A6 /* Pods-BeaconScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A1EB1F12F2F9ABCD6B3A54BEEBE6189 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		3D161205FBD825F02A19E9DC7716AAE4 /* Pods-BeaconScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconScanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B1A7E9505D6761FBEDFBD7A545295D7 /* BeaconScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeaconScanner-dummy.m"; sourceTree = "<group>"; };
+		67600837CD773D6C32A141B110AC210E /* BeaconScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeaconScanner-prefix.pch"; sourceTree = "<group>"; };
+		6BCDA466069F343BA81BFB5B2F81C498 /* Pods-BeaconScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		732099B653B35B9C1E9113C2033E55E9 /* BeaconScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeaconScanner.xcconfig; sourceTree = "<group>"; };
+		8043B649CBCAFC249BBE597824F0D1B1 /* BeaconScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeaconScanner-umbrella.h"; sourceTree = "<group>"; };
+		843E90A561A714A0C1912F2D008728AE /* Pods-BeaconScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84D6716EEE2B30F57AC38B2432E9DC68 /* Pods_BeaconScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeaconScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943432761BDC8203A79643846ADBFF10 /* Pods_BeaconScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeaconScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543C04E658F67CE152464DC27BB591F /* Pods-BeaconScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		965E3B5BD046521CA9E56D2A92A07A17 /* Pods-BeaconScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BeaconScanner_Tests.modulemap"; sourceTree = "<group>"; };
+		99FA9A5CD041D3E30B6A7D3F0EBAD6E9 /* Pods-BeaconScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconScanner_Example-resources.sh"; sourceTree = "<group>"; };
+		9B72384B57A443520B9086D09B873C8D /* Pods-BeaconScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9BA1E8DF80F75C5DB16348C98CDFDF2E /* Pods-BeaconScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3101956D3F7C76EF04BB1DB21AACE30 /* Pods-BeaconScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B28D8C2B1C11D94BBB8DC625D60333B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46EC5CA09F1F0217C321658AA018546 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71729637DF5F57E9509E4A5902F174B /* Pods-BeaconScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeaconScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B8A1FF9E1F7CE00500ED9AFE /* BeaconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconInfo.h; sourceTree = "<group>"; };
+		B8A1FF9F1F7CE00500ED9AFE /* BeaconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconInfo.m; sourceTree = "<group>"; };
+		B8A1FFA01F7CE00500ED9AFE /* BeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconScanner.h; sourceTree = "<group>"; };
+		B8A1FFA11F7CE00500ED9AFE /* BeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconScanner.m; sourceTree = "<group>"; };
+		BA6F901F0473316C49FF97B24768FC73 /* Pods-BeaconScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA8F9AB63CB9DCDEBB024D3C0233C73A /* Pods-BeaconScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D22ABE64E0AF9E9AE7CE648875B3DF1C /* Pods-BeaconScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconScanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		D33C8DCF3750D22BCB5473763EA24356 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F519F0B408ED35374087F6643D93D580 /* Pods-BeaconScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeaconScanner_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E72AA57AFA5F018F2B8BDFCE812ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AACCA756AA555F68150D6D6F5D8EB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3E373E86795C6A56198CB092B60372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0F294F243C701992E3520B316A42D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12982060328A0539DC1F913AFEF2A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35A231C861FBA87255AB7409314EAC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1FF273482D540A60BA676A6D3DC05F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				031674A136ACE12C9B411F50DBF3703D /* BeaconScanner.modulemap */,
+				732099B653B35B9C1E9113C2033E55E9 /* BeaconScanner.xcconfig */,
+				4B1A7E9505D6761FBEDFBD7A545295D7 /* BeaconScanner-dummy.m */,
+				67600837CD773D6C32A141B110AC210E /* BeaconScanner-prefix.pch */,
+				8043B649CBCAFC249BBE597824F0D1B1 /* BeaconScanner-umbrella.h */,
+				D33C8DCF3750D22BCB5473763EA24356 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BeaconScanner";
+			sourceTree = "<group>";
+		};
+		2C16327D20F532B46AEBAF71414DCDBD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8A1FF9E1F7CE00500ED9AFE /* BeaconInfo.h */,
+				B8A1FF9F1F7CE00500ED9AFE /* BeaconInfo.m */,
+				B8A1FFA01F7CE00500ED9AFE /* BeaconScanner.h */,
+				B8A1FFA11F7CE00500ED9AFE /* BeaconScanner.m */,
+				1A1EB1F12F2F9ABCD6B3A54BEEBE6189 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2D5C49EE177A6A3AE217A830483C0F85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A6D363B1F6ADD1803395F41DB750DB1 /* Pods-BeaconScanner_Example */,
+				912316A151323745A2455150ABF584D1 /* Pods-BeaconScanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4653642AEE6A35A6372B0718E7DF97C3 /* BeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				96CF53633F695EFC9EDB13399C9F0B03 /* BeaconScanner */,
+				1F1FF273482D540A60BA676A6D3DC05F /* Support Files */,
+			);
+			name = BeaconScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8B54AE59B1DFE7E4C7474C64ACCB7100 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DFD05FE73FE4DDDC08A0AF905E0EE10A /* Products */,
+				2D5C49EE177A6A3AE217A830483C0F85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B54AE59B1DFE7E4C7474C64ACCB7100 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4653642AEE6A35A6372B0718E7DF97C3 /* BeaconScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		912316A151323745A2455150ABF584D1 /* Pods-BeaconScanner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B46EC5CA09F1F0217C321658AA018546 /* Info.plist */,
+				965E3B5BD046521CA9E56D2A92A07A17 /* Pods-BeaconScanner_Tests.modulemap */,
+				1033F7EB3CE072D145E8232D12ECC901 /* Pods-BeaconScanner_Tests-acknowledgements.markdown */,
+				A3101956D3F7C76EF04BB1DB21AACE30 /* Pods-BeaconScanner_Tests-acknowledgements.plist */,
+				D22ABE64E0AF9E9AE7CE648875B3DF1C /* Pods-BeaconScanner_Tests-dummy.m */,
+				BA6F901F0473316C49FF97B24768FC73 /* Pods-BeaconScanner_Tests-frameworks.sh */,
+				F519F0B408ED35374087F6643D93D580 /* Pods-BeaconScanner_Tests-resources.sh */,
+				B71729637DF5F57E9509E4A5902F174B /* Pods-BeaconScanner_Tests-umbrella.h */,
+				BA8F9AB63CB9DCDEBB024D3C0233C73A /* Pods-BeaconScanner_Tests.debug.xcconfig */,
+				9BA1E8DF80F75C5DB16348C98CDFDF2E /* Pods-BeaconScanner_Tests.release.xcconfig */,
+			);
+			name = "Pods-BeaconScanner_Tests";
+			path = "Target Support Files/Pods-BeaconScanner_Tests";
+			sourceTree = "<group>";
+		};
+		96CF53633F695EFC9EDB13399C9F0B03 /* BeaconScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2C16327D20F532B46AEBAF71414DCDBD /* Classes */,
+			);
+			path = BeaconScanner;
+			sourceTree = "<group>";
+		};
+		9A6D363B1F6ADD1803395F41DB750DB1 /* Pods-BeaconScanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B28D8C2B1C11D94BBB8DC625D60333B9 /* Info.plist */,
+				0872CC8998F978AE8B57C818DFE37D74 /* Pods-BeaconScanner_Example.modulemap */,
+				6BCDA466069F343BA81BFB5B2F81C498 /* Pods-BeaconScanner_Example-acknowledgements.markdown */,
+				18ECB9A03D9C2A86F0489170A80A80A6 /* Pods-BeaconScanner_Example-acknowledgements.plist */,
+				1888432EBE810509B17AC7E39C1019A3 /* Pods-BeaconScanner_Example-dummy.m */,
+				9543C04E658F67CE152464DC27BB591F /* Pods-BeaconScanner_Example-frameworks.sh */,
+				99FA9A5CD041D3E30B6A7D3F0EBAD6E9 /* Pods-BeaconScanner_Example-resources.sh */,
+				3D161205FBD825F02A19E9DC7716AAE4 /* Pods-BeaconScanner_Example-umbrella.h */,
+				843E90A561A714A0C1912F2D008728AE /* Pods-BeaconScanner_Example.debug.xcconfig */,
+				9B72384B57A443520B9086D09B873C8D /* Pods-BeaconScanner_Example.release.xcconfig */,
+			);
+			name = "Pods-BeaconScanner_Example";
+			path = "Target Support Files/Pods-BeaconScanner_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD05FE73FE4DDDC08A0AF905E0EE10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167A3B9C12985F52B0384F13F9846963 /* BeaconScanner.framework */,
+				943432761BDC8203A79643846ADBFF10 /* Pods_BeaconScanner_Example.framework */,
+				84D6716EEE2B30F57AC38B2432E9DC68 /* Pods_BeaconScanner_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17663D2114685722F8D15AECBB19C386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28125AE4322AE5FE4356DD1202B79447 /* Pods-BeaconScanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B19BFF46D13A9A332DDA061FCCE83F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A1FFA21F7CE00500ED9AFE /* BeaconInfo.h in Headers */,
+				B8A1FFA41F7CE00500ED9AFE /* BeaconScanner.h in Headers */,
+				46E533EBEE1DE847469FCD8C7EAE22C6 /* BeaconScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3CA4D3DA158DF19C112311F2A35048 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E2B80BD2AB8A678986E8D2C32C95F7 /* Pods-BeaconScanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BFBE17A9A3D87AE77D9D9DF897063FD /* Pods-BeaconScanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943837BF521DE5185316D81C6FD8796B /* Build configuration list for PBXNativeTarget "Pods-BeaconScanner_Example" */;
+			buildPhases = (
+				CEAAA01369FA8392302A488DF33153EA /* Sources */,
+				CB3E373E86795C6A56198CB092B60372 /* Frameworks */,
+				17663D2114685722F8D15AECBB19C386 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AAF673165D1B49771FE26A8627722D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeaconScanner_Example";
+			productName = "Pods-BeaconScanner_Example";
+			productReference = 943432761BDC8203A79643846ADBFF10 /* Pods_BeaconScanner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E0F8313D494F23F037AA02645D82A0 /* Pods-BeaconScanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AC5FED756B571B3C30C6AC50E6EEB7 /* Build configuration list for PBXNativeTarget "Pods-BeaconScanner_Tests" */;
+			buildPhases = (
+				465FE35F846716EB587242E1BF47DBEC /* Sources */,
+				B5E72AA57AFA5F018F2B8BDFCE812ECE /* Frameworks */,
+				CE3CA4D3DA158DF19C112311F2A35048 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BeaconScanner_Tests";
+			productName = "Pods-BeaconScanner_Tests";
+			productReference = 84D6716EEE2B30F57AC38B2432E9DC68 /* Pods_BeaconScanner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8AAFD0EB6039549A0B768BF3E2388F0 /* BeaconScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A91DEC4588C2DCEA56AE764CF8DEF9 /* Build configuration list for PBXNativeTarget "BeaconScanner" */;
+			buildPhases = (
+				168DC834990239F7A7190B4F5401620D /* Sources */,
+				E12982060328A0539DC1F913AFEF2A65 /* Frameworks */,
+				3B19BFF46D13A9A332DDA061FCCE83F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconScanner;
+			productName = BeaconScanner;
+			productReference = 167A3B9C12985F52B0384F13F9846963 /* BeaconScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFD05FE73FE4DDDC08A0AF905E0EE10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AAFD0EB6039549A0B768BF3E2388F0 /* BeaconScanner */,
+				4BFBE17A9A3D87AE77D9D9DF897063FD /* Pods-BeaconScanner_Example */,
+				56E0F8313D494F23F037AA02645D82A0 /* Pods-BeaconScanner_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168DC834990239F7A7190B4F5401620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A1FFA51F7CE00500ED9AFE /* BeaconScanner.m in Sources */,
+				A290D3C96572B6D46355A0650CD8C09D /* BeaconScanner-dummy.m in Sources */,
+				EAA8AADBA31B48D3A67686BAB3D98948 /* ReplaceMe.m in Sources */,
+				B8A1FFA31F7CE00500ED9AFE /* BeaconInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465FE35F846716EB587242E1BF47DBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354460B03D08B2E52B525DD737157531 /* Pods-BeaconScanner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAAA01369FA8392302A488DF33153EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC69B3EA658EC4BF5684EEBC0424035 /* Pods-BeaconScanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AAF673165D1B49771FE26A8627722D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeaconScanner;
+			target = E8AAFD0EB6039549A0B768BF3E2388F0 /* BeaconScanner */;
+			targetProxy = 5D35075865BD9E97C47904A1CE177A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		161A675C093E1CBB69D8537FF6DFAABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA1E8DF80F75C5DB16348C98CDFDF2E /* Pods-BeaconScanner_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconScanner_Tests/Pods-BeaconScanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeaconScanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29FD383795FFC562916E9569FCF6739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B72384B57A443520B9086D09B873C8D /* Pods-BeaconScanner_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconScanner_Example/Pods-BeaconScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeaconScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F656F0596C19ACBE7A07A02CD3E2ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843E90A561A714A0C1912F2D008728AE /* Pods-BeaconScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconScanner_Example/Pods-BeaconScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeaconScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86CBEFFA37508BEAF8359A1AAC47A84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732099B653B35B9C1E9113C2033E55E9 /* BeaconScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BeaconScanner/BeaconScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeaconScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BeaconScanner/BeaconScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BeaconScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D70E2788E6D5C904C8F4748B481D640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732099B653B35B9C1E9113C2033E55E9 /* BeaconScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BeaconScanner/BeaconScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeaconScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BeaconScanner/BeaconScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BeaconScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC3999376C7FF2ECAD4437DFED1CDE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8F9AB63CB9DCDEBB024D3C0233C73A /* Pods-BeaconScanner_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeaconScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeaconScanner_Tests/Pods-BeaconScanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeaconScanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24AC5FED756B571B3C30C6AC50E6EEB7 /* Build configuration list for PBXNativeTarget "Pods-BeaconScanner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3999376C7FF2ECAD4437DFED1CDE06 /* Debug */,
+				161A675C093E1CBB69D8537FF6DFAABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A91DEC4588C2DCEA56AE764CF8DEF9 /* Build configuration list for PBXNativeTarget "BeaconScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D70E2788E6D5C904C8F4748B481D640 /* Debug */,
+				86CBEFFA37508BEAF8359A1AAC47A84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943837BF521DE5185316D81C6FD8796B /* Build configuration list for PBXNativeTarget "Pods-BeaconScanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F656F0596C19ACBE7A07A02CD3E2ACD /* Debug */,
+				29FD383795FFC562916E9569FCF6739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

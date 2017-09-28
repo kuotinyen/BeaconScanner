@@ -1,0 +1,16 @@
+PODS:
+  - BeaconScanner (0.1.0)
+
+DEPENDENCIES:
+  - BeaconScanner (from `../`)
+
+EXTERNAL SOURCES:
+  BeaconScanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BeaconScanner: 355afdddc151aeee8addb7b987467acf930aec43
+
+PODFILE CHECKSUM: 49b78f8ea52dc84d6a0696ce9f48bc5027e2991f
+
+COCOAPODS: 1.1.1

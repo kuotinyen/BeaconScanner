@@ -1,0 +1,6 @@
+framework module BeaconScanner {
+  umbrella header "BeaconScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

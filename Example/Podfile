@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BeaconScanner_Example' do
+  pod 'BeaconScanner', :path => '../'
+
+  target 'BeaconScanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
